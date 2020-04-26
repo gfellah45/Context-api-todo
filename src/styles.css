@@ -1,0 +1,43 @@
+body {
+  background-color: #dddacc;
+}
+
+.App {
+  font-family: sans-serif;
+  width: 80%;
+  margin: 0 auto;
+}
+.navigator {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 0;
+}
+.count {
+  align-self: center;
+  color: teal;
+}
+.heading {
+  font-weight: 600;
+  color: teal;
+  font-size: 2rem;
+}
+form {
+  text-align: center;
+  margin: 1rem 0;
+}
+form input[type="text"] {
+  padding: 0.4rem 1rem;
+  border: 1px solid teal;
+  outline: none;
+  border-radius: 2px;
+}
+form input[type="submit"] {
+  background-color: teal;
+  outline: none;
+  border: none;
+  padding: 0.5rem 0.4rem;
+  margin: 0.3rem;
+  border-radius: 3px;
+  color: #fff;
+  cursor: pointer;
+}
